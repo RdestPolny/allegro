@@ -297,7 +297,7 @@ with col_btn3:
     max_workers = st.number_input(
         "Równoległe wątki",
         min_value=1,
-        max_value=10,
+        max_value=500,
         value=5,
         help="Liczba równoległych zapytań do API"
     )
